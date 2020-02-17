@@ -12,7 +12,14 @@
     <router-link
         active-class="bottom_icon-active"
         class="bottom_icon"
-        to="/murren">
+        to="/watch_on_murr/?murr_id=2">
+      <i class="el-icon-view"></i>
+    </router-link>
+
+    <router-link
+        active-class="bottom_icon-active"
+        class="bottom_icon"
+        to="/create_murr">
       <i class="el-icon-edit-outline"></i>
     </router-link>
 

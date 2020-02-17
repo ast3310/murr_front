@@ -22,6 +22,7 @@
       <div class="mb">
         <label>
           <input
+              class="auth-input"
               type="text"
               v-model.trim="murren_username"
               placeholder="Имя в Мурренган"
@@ -46,6 +47,7 @@
       <div class="mb">
         <label>
           <input
+              class="auth-input"
               type="password"
               v-model.trim="murren_password"
               placeholder="Пароль"
@@ -155,7 +157,7 @@
 
                     await this.$store.dispatch('login', formData);
                     await this.$store.dispatch('changeShowLoginForm_actions');
-                    await this.$router.push('/murren');
+                    // await this.$router.push('/murren');
 
                 } catch (e) {
 

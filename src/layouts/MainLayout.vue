@@ -3,7 +3,7 @@
 
     <TopNavbar/>
 
-    <div class="nav-container">
+    <div class="view-container">
 
       <transition
           name="fade"
@@ -76,8 +76,9 @@
     background-color: #1a2931;
   }
 
-  .nav-container {
+  .view-container {
     width: 100%;
+    height: 100%;
     padding-bottom: 50px;
     padding-top: 60px;
     text-align: center;
