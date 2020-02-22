@@ -148,12 +148,12 @@
             async setNewPassword(recaptchaToken) {
 
 
-                const murren_email = this.$route.query.activation_code;
+                const murren_code = this.$route.query.activation_code;
 
                 const formData = {
                     murren_password_1: this.murren_password_1,
                     murren_password_2: this.murren_password_2,
-                    murren_email: murren_email,
+                    murren_code: murren_code,
                     recaptchaToken: recaptchaToken
                 };
 
